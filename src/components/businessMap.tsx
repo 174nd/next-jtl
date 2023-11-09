@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 import AccordionItem from './accordionItems';
+import Image from 'next/image';
 
 export default function BusinessMap() {
   const [open, setOpen] = useState<number | null>(null);
@@ -51,7 +52,7 @@ export default function BusinessMap() {
       
       <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-          <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex lg:self-start" src="/hero.jpg"
+          <Image className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex lg:self-start" src="/hero.jpg"
             alt="feature image 2"/>
 
           <div className="text-gray-900 sm:text-lg dark:text-gray-400">

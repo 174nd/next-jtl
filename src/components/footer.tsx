@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Footer() {
@@ -9,7 +10,7 @@ export default function Footer() {
       <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
         <div className="mb-10 w-full">
           <a href="#home" className="font-bold text-lg text-primary-500 py-4 flex items-center">
-            <img src="/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+            <Image src="/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap">Jasa Tirta Luhur</span>
           </a>
           <p className="mb-7 text-base text-[#f3f4fe]">
@@ -99,11 +100,11 @@ export default function Footer() {
 
   <div>
     <span className="absolute left-0 top-0 z-[-1]">
-      <img src="/footer/shape-1.svg" className="h-[23.5rem]" />
+      <Image src="/footer/shape-1.svg" className="h-[23.5rem]" />
     </span>
 
     <span className="absolute bottom-0 right-0 z-[-1]">
-      <img src="/footer/shape-3.svg" alt="" />
+      <Image src="/footer/shape-3.svg" alt="" />
     </span>
 
     <span className="absolute top-0 right-0 z-[-1]">

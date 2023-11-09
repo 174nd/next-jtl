@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
       <div className="flex intems-center justify-between ">
         <div className="px-4">
           <a href="#home" className="font-bold text-lg text-primary-500 py-4 flex items-center">
-            <img src="/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+            <Image src="/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap bg-gradient-to-r from-primary-600  to-primary-300 inline-block text-transparent bg-clip-text">Jasa Tirta Luhur</span>
           </a>
         </div>
