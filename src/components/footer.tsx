@@ -100,7 +100,7 @@ export default function Footer() {
 
   <div>
     <span className="absolute left-0 top-0 z-[-1]">
-      <Image src="/footer/shape-1.svg" className="h-[23.5rem]" />
+      <Image src="/footer/shape-1.svg" className="h-[23.5rem]" alt="" />
     </span>
 
     <span className="absolute bottom-0 right-0 z-[-1]">
